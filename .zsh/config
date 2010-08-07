@@ -1,0 +1,53 @@
+if [[ -n $SSH_CONNECTION ]]; then
+  export PS1='%m:%3~%# ' #export PS1='%m:%3~$(git_info_for_prompt)%# '
+else
+  export PS1='%3~%# ' #export PS1='%3~$(git_info_for_prompt)%# '
+fi
+
+export EDITOR='nano'
+export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:$PATH"
+export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
+export CLICOLOR=1
+export GEM_HOME="$(brew --prefix)/Cellar/Gems/1.8"
+export GEM_PATH=$GEM_HOME:/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/ruby/gems/1.8/gems
+export CAPP_BUILD="/usr/local/cappuccino"
+export RUBYLIB="/usr/local/lib:$RUBYLIB"
+
+if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
+
+fpath=(~/.zsh/functions $fpath)
+
+autoload -U ~/.zsh/functions/*(:t)
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+REPORTTIME=10 # print elapsed time when more than 10 seconds
+
+setopt NO_BG_NICE # don't nice background tasks
+setopt NO_HUP
+setopt NO_LIST_BEEP
+setopt LOCAL_OPTIONS # allow functions to have local options
+setopt LOCAL_TRAPS # allow functions to have local traps
+setopt HIST_VERIFY
+setopt SHARE_HISTORY # share history between sessions ???
+setopt EXTENDED_HISTORY # add timestamps to history
+setopt PROMPT_SUBST
+#setopt CORRECT
+setopt COMPLETE_IN_WORD
+setopt IGNORE_EOF
+
+setopt APPEND_HISTORY # adds history
+setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share it across sessions
+setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
+setopt HIST_REDUCE_BLANKS
+
+zle -N newtab
+
+bindkey '^[^[[D' backward-word
+bindkey '^[^[[C' forward-word
+bindkey '^[[5D' beginning-of-line
+bindkey '^[[5C' end-of-line
+bindkey '^[[3~' delete-char
+bindkey '^[^N' newtab
+bindkey '^?' backward-delete-char 

@@ -1,0 +1,7 @@
+savepath
+osascript >/dev/null <<EOF
+tell application "Terminal"
+	activate
+	tell application "System Events" to keystroke "t" using command down
+end tell
+EOF

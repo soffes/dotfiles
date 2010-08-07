@@ -1,0 +1,14 @@
+[user]
+	name = Sam Soffes
+	email = sam@asmsoff.es
+[alias]
+	co = checkout
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = <%= ENV['HOME'] %>/.gitignore
+[apply]
+	whitespace = nowarn

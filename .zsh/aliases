@@ -1,0 +1,44 @@
+# cd
+alias ..='cd ..'
+
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'
+
+# Git
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff'
+alias gc='git commit'
+alias gca='git commit -a'
+alias gco='git checkout'
+alias gb='git branch'
+alias gs='git status'
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+
+# Commands starting with % for pasting from web
+alias %=' '
+
+# Xcode
+alias xc='open /Developer/Applications/Xcode.app'
+alias xc.='open *.xcodeproj'
+
+# TextMate
+alias m='mate'
+alias m.='mate .'
+
+# Finder
+alias o.='open .'
+
+# Misc
+alias utime="ruby -e 'puts Time.now.to_i'"
+alias sha1="/usr/bin/openssl sha1"
+
+# PostgreSQL
+alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+
+# Nginx
+alias nr="sudo nginx -s reload"

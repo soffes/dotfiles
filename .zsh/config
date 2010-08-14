@@ -8,10 +8,7 @@ export EDITOR='nano'
 export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export CLICOLOR=1
-export GEM_HOME="$(brew --prefix)/Cellar/Gems/1.8"
-export GEM_PATH=$GEM_HOME:/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/ruby/gems/1.8/gems
 export CAPP_BUILD="/usr/local/cappuccino"
-export RUBYLIB="/usr/local/lib:$RUBYLIB"
 
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 

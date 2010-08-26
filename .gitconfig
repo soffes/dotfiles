@@ -12,3 +12,9 @@
 	excludesfile = <%= ENV['HOME'] %>/.gitignore
 [apply]
 	whitespace = nowarn
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope

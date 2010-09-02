@@ -19,6 +19,9 @@ alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gsu="git submodule update --init --recursive"
 
+# Rails
+alias tlog='tail -f log/development.log'
+
 # Commands starting with % for pasting from web
 alias %=' '
 

@@ -10,3 +10,7 @@ files as well. If you would like to switch to zsh, you can do so with
 the following command.
 
     chsh -s /bin/zsh
+
+## Stuff To Change
+
+You'll probably want to change the `.gitconfig` so you don't commit everything as me. Everything else shouldn't need tweaking.

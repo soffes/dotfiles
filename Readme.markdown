@@ -14,3 +14,7 @@ the following command.
 ## Stuff To Change
 
 You'll probably want to change the `.gitconfig` so you don't commit everything as me. Everything else shouldn't need tweaking.
+
+If you don't want to see `Readme.markdown` in your home folder (it drives me nuts seeing it in there), just run this:
+
+    $ SetFile -a "V" ~/Readme.markdown

@@ -39,6 +39,7 @@ alias o.='open .'
 # Misc
 alias utime="ruby -e 'puts Time.now.to_i'"
 alias sha1="/usr/bin/openssl sha1"
+alias t="terminitor"
 
 # PostgreSQL
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"

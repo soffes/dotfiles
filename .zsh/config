@@ -48,3 +48,13 @@ bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char 
+
+# Scribd
+export scribd="$HOME/Code/Scribd"
+for p in iseo stats rails conversion analytics scribox genserve publisher_tools
+do
+	export $p="$scribd/$p"
+done
+
+export SCRIBD_SUPPORT=$scribox
+alias sb="source $scribox/set_environment.sh"

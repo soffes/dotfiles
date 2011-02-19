@@ -1,15 +1,19 @@
 [user]
-	name = Sam Soffes
-	email = sam@samsoff.es
+  name = Sam Soffes
+  email = sam@samsoff.es
 [alias]
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+  diff = auto
+  status = auto
+  branch = auto
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [apply]
-	whitespace = nowarn
+  whitespace = nowarn
+[merge]
+  tool = kdiff3
 [difftool]
-	prompt = false
+  prompt = false
+[push]
+  default = current

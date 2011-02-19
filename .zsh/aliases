@@ -8,6 +8,7 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # Git
+alias got='git'
 alias gl='git pull'
 alias gp='git push'
 alias gd='git diff'
@@ -24,6 +25,7 @@ alias tlog='tail -f log/development.log'
 
 # Commands starting with % for pasting from web
 alias %=' '
+alias $=' '
 
 # Xcode
 alias xc='open /Developer/Applications/Xcode.app'

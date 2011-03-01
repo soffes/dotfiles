@@ -1,2 +1,0 @@
-#!/bin/sh
-open "http://google.com/search?q=\"$*\"\&btnI="

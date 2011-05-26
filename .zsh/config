@@ -5,7 +5,7 @@ else
 fi
 
 export EDITOR='nano'
-export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:/usr/local/share/npm/bin:$PATH"
+export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:/usr/local/share/npm/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export CLICOLOR=1
 export CAPP_BUILD="/usr/local/cappuccino"
@@ -48,13 +48,3 @@ bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char 
-
-# Scribd
-export scribd="$HOME/Code/scribd"
-for p in iseo stats rails conversion analytics scribox genserve publisher_tools
-do
-	export $p="$scribd/$p"
-done
-
-export SCRIBD_SUPPORT=$scribox
-alias sb="source $scribox/set_environment.sh"

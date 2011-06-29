@@ -24,6 +24,8 @@ alias gsu="git submodule update --init --recursive"
 
 # Rails
 alias tlog='tail -f log/development.log'
+alias b='bundle exec'
+alias bake='bundle exec rake'
 
 # Commands starting with % for pasting from web
 alias %=' '

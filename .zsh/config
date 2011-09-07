@@ -5,7 +5,7 @@ else
 fi
 
 export EDITOR='nano'
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:/usr/local/share/npm/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:$PATH"
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:/usr/local/share/npm/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/Cellar/python:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export CLICOLOR=1
 export CAPP_BUILD="/usr/local/cappuccino"

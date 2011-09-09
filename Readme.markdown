@@ -28,3 +28,7 @@ If you don't want to see `Readme.markdown` in your home folder (it drives me nut
 If you are annoyed by running `git status` in your home directory and seeing a ton of stuff that isn't added (like I am), you can easily fix this.
 
 Add a single line with a `*` on it in `~/.git/info/exclude` to simply exclude everything. If you want to add a file, simply `git add` it. (Thanks to [Ryan Tomayko](http://github.com/rtomayko/dotfiles) for this technique.)
+
+## Now What?
+
+[Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation). [Install rbenv](https://github.com/sstephenson/rbenv#section_2). Enjoy.

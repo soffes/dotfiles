@@ -31,4 +31,22 @@ Add a single line with a `*` on it in `~/.git/info/exclude` to simply exclude ev
 
 ## Now What?
 
-[Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation). [Install rbenv](https://github.com/sstephenson/rbenv#section_2). Enjoy.
+[Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation):
+
+    # Install Xcode first
+    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+
+[Install rbenv](https://github.com/sstephenson/rbenv#section_2) and [ruby-build](https://github.com/sstephenson/ruby-build):
+
+    $ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
+    # Restart shell
+    $ git clone git://github.com/sstephenson/ruby-build.git
+    $ cd ruby-build
+    $ install.sh
+    $ cd ..
+    $ rm -rf ruby-build
+    $ ruby-build 1.9.2-p290 ~/.rbenv/versions/1.9.2-p290
+    $ rbenv rehash
+    $ rbenv global 1.9.2-p290
+
+Enjoy.

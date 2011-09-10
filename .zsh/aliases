@@ -26,6 +26,7 @@ alias gsu="git submodule update --init --recursive"
 alias tlog='tail -f log/development.log'
 alias b='bundle exec'
 alias bake='bundle exec rake'
+alias bails='bundle exec rails'
 
 # Commands starting with % for pasting from web
 alias %=' '
@@ -40,6 +41,7 @@ alias m='mate'
 alias m.='mate .'
 
 # Finder
+alias o='open'
 alias o.='open .'
 
 # Misc
@@ -50,6 +52,3 @@ alias t="terminitor"
 # PostgreSQL
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-
-# Nginx
-alias nr="sudo nginx -s reload"

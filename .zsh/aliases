@@ -11,7 +11,9 @@ alias la='ls -A'
 # Git
 alias got='git'
 alias gl='git pull'
+alias glom='git pull origin master'
 alias gp='git push'
+alias gpom='git push origin master'
 alias gd='git diff'
 alias gc='git commit'
 alias gca='git commit -a'
@@ -27,6 +29,7 @@ alias tlog='tail -f log/development.log'
 alias b='bundle exec'
 alias bake='bundle exec rake'
 alias bails='bundle exec rails'
+alias rr='rbenv rehash'
 
 # Commands starting with % for pasting from web
 alias %=' '

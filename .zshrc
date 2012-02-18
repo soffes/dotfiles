@@ -1,5 +1,6 @@
 . ~/.zsh/config
 . ~/.zsh/aliases
+. ~/.zsh/bundler
 . ~/.zsh/completion
 
 # Set Apple Terminal.app resume directory

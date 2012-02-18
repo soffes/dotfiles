@@ -1,9 +1,3 @@
-if [[ -n $SSH_CONNECTION ]]; then
-  export PS1='%m:%3~\$ '
-else
-  export PS1='%3~\$ '
-fi
-
 export EDITOR='nano'
 export PATH="./bin:$HOME/bin:$HOME/.rbenv/bin:$HOME/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/Library/PostgreSQL/8.4/bin:/usr/local/narwhal/bin:/usr/local/share/npm/bin:/Developer/Platforms/iPhoneOS.platform/Developer/Library/PrivateFrameworks/DTDeviceKit.framework/Versions/A/Resources/:/usr/local/Cellar/python:/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
@@ -45,3 +39,19 @@ bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char 
+
+parse_git_dirty() {
+  if [[ -n $(git status -s --ignore-submodules=dirty 2> /dev/null) ]]; then
+    echo "%{$fg[red]%}"
+  else
+    echo "%{$fg[green]%}"
+  fi
+}
+
+function git_prompt_info() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo " $(parse_git_dirty)${ref#refs/heads/}%{$reset_color%}"
+}
+
+PROMPT='%{$fg[blue]%}%c%{$reset_color%}$ '
+RPROMPT='$(git_prompt_info)'

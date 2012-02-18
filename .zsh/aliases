@@ -9,48 +9,31 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # Git
-alias got='git'
-alias gl='git pull'
-alias glom='git pull origin master'
-alias gp='git push'
-alias gpom='git push origin master'
-alias gd='git diff'
-alias gc='git commit'
-alias gca='git commit -a'
-alias gco='git checkout'
-alias gb='git branch'
-alias g='git status'
-alias gs='git status'
-alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gsu="git submodule update --init --recursive"
+alias gs='git status'
+compdef _git gs=git-status
 
 # Rails
 alias tlog='tail -f log/development.log'
 alias b='bundle exec'
 alias bake='bundle exec rake'
-alias bails='bundle exec rails'
 alias rr='rbenv rehash'
+
+# Chocolat
+alias co='choc .'
+
+# TextMate
+alias m='mate .'
+
+# Mac OS X
+alias o='open .'
+
+# Xcode
+alias x='open *.xcodeproj' # This override X Window stuff, but who cares
 
 # Commands starting with % for pasting from web
 alias %=' '
 alias $=' '
-
-# Xcode
-alias xc='open /Developer/Applications/Xcode.app'
-alias xc.='open *.xcodeproj'
-
-# TextMate
-alias m='mate'
-alias m.='mate .'
-
-# Finder
-alias o='open'
-alias o.='open .'
-
-# Misc
-alias utime="ruby -e 'puts Time.now.to_i'"
-alias sha1="/usr/bin/openssl sha1"
-alias t="terminitor"
 
 # PostgreSQL
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"

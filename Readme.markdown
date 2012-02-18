@@ -40,14 +40,10 @@ This will simply exclude everything. If you want to add a file, simply `git add`
 
 [Install rbenv](https://github.com/sstephenson/rbenv#section_2) and [ruby-build](https://github.com/sstephenson/ruby-build):
 
-    $ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
+    $ brew install ruby-build
+    $ brew install rbenv
     # Restart shell
-    $ git clone git://github.com/sstephenson/ruby-build.git
-    $ cd ruby-build
-    $ install.sh
-    $ cd ..
-    $ rm -rf ruby-build
-    $ ruby-build 1.9.2-p290 ~/.rbenv/versions/1.9.2-p290
+    $ rbenv install 1.9.2-p290
     $ rbenv rehash
     $ rbenv global 1.9.2-p290
 

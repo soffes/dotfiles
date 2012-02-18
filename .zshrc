@@ -10,9 +10,11 @@ if [[ $TERM_PROGRAM == "Apple_Terminal" ]] && [[ -z "$INSIDE_EMACS" ]] {
   chpwd
 }
 
-# Setup completion
+# Load functions and completion
+fpath=(~/.zsh/functions $fpath)
 autoload -U compinit
 compinit
+autoload -U ~/.zsh/functions/*(:t)
 
 # Matches case insensitive for lowercase
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
@@ -22,7 +24,3 @@ zstyle ':completion:*' insert-tab pending
 
 # Load files
 for file (~/.zsh/*.zsh) source $file
-
-# Load functions
-fpath=(~/.zsh/functions $fpath)
-autoload -U ~/.zsh/functions/*(:t)

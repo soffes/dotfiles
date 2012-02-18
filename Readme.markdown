@@ -25,9 +25,11 @@ If you don't want to see `Readme.markdown` in your home folder (it drives me nut
 
 ### Git Exclude
 
-If you are annoyed by running `git status` in your home directory and seeing a ton of stuff that isn't added (like I am), you can easily fix this.
+If you are annoyed by running `git status` in your home directory and seeing a ton of stuff that isn't added (like I am), you can easily fix this:
 
-Add a single line with a `*` on it in `~/.git/info/exclude` to simply exclude everything. If you want to add a file, simply `git add` it. (Thanks to [Ryan Tomayko](http://github.com/rtomayko/dotfiles) for this technique.)
+    $ echo '*' >> ~/.git/info/exclude
+
+This will simply exclude everything. If you want to add a file, simply `git add` it. (Thanks to [Ryan Tomayko](http://github.com/rtomayko/dotfiles) for this technique.)
 
 ## Now What?
 

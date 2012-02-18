@@ -1,8 +1,3 @@
-. ~/.zsh/config
-. ~/.zsh/aliases
-. ~/.zsh/bundler
-. ~/.zsh/completion
-
 # Set Apple Terminal.app resume directory
 if [[ $TERM_PROGRAM == "Apple_Terminal" ]] && [[ -z "$INSIDE_EMACS" ]] {
   function chpwd {
@@ -14,3 +9,20 @@ if [[ $TERM_PROGRAM == "Apple_Terminal" ]] && [[ -z "$INSIDE_EMACS" ]] {
 
   chpwd
 }
+
+# Setup completion
+autoload -U compinit
+compinit
+
+# Matches case insensitive for lowercase
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+# Pasting with tabs doesn't perform completion
+zstyle ':completion:*' insert-tab pending
+
+# Load files
+for file (~/.zsh/*.zsh) source $file
+
+# Load functions
+fpath=(~/.zsh/functions $fpath)
+autoload -U ~/.zsh/functions/*(:t)

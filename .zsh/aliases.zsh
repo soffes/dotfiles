@@ -27,6 +27,7 @@ alias m='mate .'
 
 # Mac OS X
 alias o='open .'
+alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine'
 
 # Xcode
 alias x='open *.xcodeproj' # This override X Window stuff, but who cares

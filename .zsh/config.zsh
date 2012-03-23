@@ -11,7 +11,7 @@ autoload colors; colors;
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 setopt PROMPT_SUBST
 
-# RBENV
+# RENV
 autoload -U ~/.rbenv/shims
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
 

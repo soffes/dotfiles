@@ -1,5 +1,8 @@
 # cd
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ,,='cd ..'
+alias ,,,='cd ../..'
 alias db='cd ~/Dropbox'
 
 # ls
@@ -9,9 +12,10 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # Git
-alias gsu="git submodule update --init --recursive"
+alias gsu='git submodule update --init --recursive'
 alias gs='git status'
 compdef _git gs=git-status
+alias gut='git'
 
 # Rails
 alias tlog='tail -f log/development.log'
@@ -20,7 +24,7 @@ alias bake='bundle exec rake'
 alias rr='rbenv rehash'
 
 # Chocolat
-alias co='choc .'
+alias ch='choc .'
 
 # TextMate
 alias m='mate .'
@@ -37,5 +41,5 @@ alias %=' '
 alias $=' '
 
 # PostgreSQL
-alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias pg_start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pg_stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'

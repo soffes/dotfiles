@@ -1,0 +1,2 @@
+#compdef db
+_files -W ~/Dropbox -/

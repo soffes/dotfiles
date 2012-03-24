@@ -3,7 +3,6 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ,,='cd ..'
 alias ,,,='cd ../..'
-alias db='cd ~/Dropbox'
 
 # ls
 alias ls="ls -F"

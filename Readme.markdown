@@ -36,7 +36,7 @@ This will simply exclude everything. If you want to add a file, simply `git add`
 [Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation):
 
     # Install Xcode first
-    $ /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+    $ /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
 
 [Install rbenv](https://github.com/sstephenson/rbenv#section_2) and [ruby-build](https://github.com/sstephenson/ruby-build):
 

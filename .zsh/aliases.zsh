@@ -23,10 +23,15 @@ alias bake='bundle exec rake'
 alias rr='rbenv rehash'
 
 # Chocolat
-alias ch='choc .'
+alias ch='choc'
+alias ch.='choc .'
 
 # TextMate
-alias m='mate .'
+alias ma='mate'
+alias ma.='mate .'
+
+# Heroku
+alias h='heroku'
 
 # Mac OS X
 alias o='open .'

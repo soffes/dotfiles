@@ -2,7 +2,7 @@
 export EDITOR='nano'
 
 # Paths
-export PATH="./bin:$HOME/bin:/usr/local/bin:/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH="./bin:$HOME/bin:/usr/local/heroku/bin:/usr/local/bin:/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 # Colors

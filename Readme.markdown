@@ -33,10 +33,12 @@ This will simply exclude everything. If you want to add a file, simply `git add`
 
 ## Now What?
 
+[Install GCC](https://github.com/kennethreitz/osx-gcc-installer/downloads)
+
 [Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation):
 
     # Install Xcode first
-    $ /usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
+    $ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
 [Install rbenv](https://github.com/sstephenson/rbenv#section_2) and [ruby-build](https://github.com/sstephenson/ruby-build):
 

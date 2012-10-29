@@ -45,8 +45,8 @@ This will simply exclude everything. If you want to add a file, simply `git add`
     $ brew install ruby-build
     $ brew install rbenv
     # Restart shell
-    $ rbenv install 1.9.3-p125
+    $ rbenv install 1.9.3-p286
     $ rbenv rehash
-    $ rbenv global 1.9.3-p125
+    $ rbenv global 1.9.3-p286
 
 Enjoy.

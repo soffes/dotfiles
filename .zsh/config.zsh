@@ -15,6 +15,9 @@ setopt PROMPT_SUBST
 autoload -U ~/.rbenv/shims
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
 
+# Fast JRuby
+export JAVA_OPTS="-d32"
+
 # Timer
 REPORTTIME=10 # print elapsed time when more than 10 seconds
 

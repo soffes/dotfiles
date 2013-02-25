@@ -12,11 +12,6 @@ autoload colors; colors;
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 setopt PROMPT_SUBST
 
-# OpenSSL
-# Must run `brew install openssl` first
-export LDFLAGS="-L/usr/local/opt/openssl/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl/include"
-
 # RENV
 autoload -U ~/.rbenv/shims
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"

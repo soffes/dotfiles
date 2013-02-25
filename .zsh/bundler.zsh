@@ -1,5 +1,5 @@
 # The following is based on https://github.com/gma/bundler-exec
-bundled_commands=(annotate cap capify cucumber ey guard middleman nanoc rackup rainbows rake rspec ruby shotgun spec spork thin thor unicorn unicorn_rails m)
+bundled_commands=(cap capify guard rackup rake shotgun)
 
 _bundler-installed() {
   which bundle > /dev/null 2>&1

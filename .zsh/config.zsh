@@ -31,6 +31,15 @@ export EC2_AVAILABILITY_ZONE="us-west-1a"
 # Timer
 REPORTTIME=10 # print elapsed time when more than 10 seconds
 
+# Quote pasted URLs
+autoload -U url-quote-magic
+zle -N self-insert url-quote-magic
+
+# Tetris
+autoload -U tetris
+zle -N tetris
+bindkey ^T tetris
+
 # Misc options
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP

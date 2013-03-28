@@ -1,4 +1,4 @@
-# ~samsoffes
+# ~soffes
 
 Based on [Ryan Bates](http://github.com/ryanb/dotfiles), [Ryan Tomayko](http://github.com/rtomayko/dotfiles), and [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh).
 
@@ -40,13 +40,12 @@ This will simply exclude everything. If you want to add a file, simply `git add`
     # Install Xcode first
     $ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
-[Install rbenv](https://github.com/sstephenson/rbenv#section_2) and [ruby-build](https://github.com/sstephenson/ruby-build):
+[Install rbenv](https://github.com/sstephenson/rbenv) and [ruby-build](https://github.com/sstephenson/ruby-build):
 
-    $ brew install ruby-build
     $ brew install rbenv
-    # Restart shell
-    $ rbenv install 1.9.3-p286
-    $ rbenv rehash
-    $ rbenv global 1.9.3-p286
+    $ git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+    $ eval "$(rbenv init -)"
+    $ rbenv install 2.0.0-p0
+    $ rbenv global 2.0.0-p0
 
 Enjoy.

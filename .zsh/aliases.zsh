@@ -21,6 +21,7 @@ alias tlog='tail -f log/development.log'
 alias b='bundle exec'
 alias bake='bundle exec rake'
 alias rr='rbenv rehash'
+alias bm='bin/m'
 
 # Chocolat
 alias ch='choc'

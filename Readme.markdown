@@ -12,7 +12,7 @@ I am running on Mac OS X, but it will likely work on Linux as well with minor fi
 
     $ cd ~
     $ git init
-    $ git remote add origin git://github.com/samsoffes/dotfiles.git
+    $ git remote add origin https://github.com/soffes/dotfiles.git
     $ git pull origin master
 
 ## Stuff To Change

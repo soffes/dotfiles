@@ -1,5 +1,5 @@
 # The following is based on https://github.com/gma/bundler-exec
-bundled_commands=(cap capify guard rackup rake shotgun rails rackup)
+bundled_commands=(rackup rake shotgun rails)
 
 _bundler-installed() {
   which bundle > /dev/null 2>&1

@@ -24,9 +24,6 @@ alias bm='bin/m'
 alias o='open .'
 alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine'
 
-# Xcode
-alias x='open *.xcodeproj' # This override X Window stuff, but who cares
-
 # Commands starting with % for pasting from web
 alias %=' '
 alias $=' '

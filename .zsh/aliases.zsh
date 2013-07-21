@@ -13,6 +13,9 @@ alias gs='git status'
 compdef _git gs=git-status
 alias gut='git'
 
+# Editor
+alias s='subl .'
+
 # Rails
 alias tlog='tail -f log/development.log'
 alias b='bundle exec'

@@ -33,19 +33,15 @@ This will simply exclude everything. If you want to add a file, simply `git add`
 
 ## Now What?
 
-[Install GCC](https://github.com/kennethreitz/osx-gcc-installer/downloads)
-
-[Install Homebrew](https://github.com/mxcl/homebrew/wiki/installation):
+[Install Homebrew](http://brew.sh):
 
     # Install Xcode first
     $ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
 [Install rbenv](https://github.com/sstephenson/rbenv) and [ruby-build](https://github.com/sstephenson/ruby-build):
 
-    $ brew install rbenv
-    $ git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-    $ eval "$(rbenv init -)"
-    $ rbenv install 2.0.0-p0
-    $ rbenv global 2.0.0-p0
+    $ brew install rbenv ruby-build
+    $ rbenv install 2.0.0-p247
+    $ rbenv global 2.0.0-p247
 
 Enjoy.

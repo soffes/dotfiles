@@ -40,7 +40,7 @@ This will simply exclude everything. If you want to add a file, simply `git add`
 
 [Install rbenv](https://github.com/sstephenson/rbenv) and [ruby-build](https://github.com/sstephenson/ruby-build):
 
-    $ brew install rbenv ruby-build
+    $ brew install rbenv ruby-build rbenv-gem-rehash
     $ rbenv install 2.0.0-p247
     $ rbenv global 2.0.0-p247
 

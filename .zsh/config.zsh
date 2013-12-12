@@ -2,10 +2,11 @@
 export EDITOR='nano'
 
 # Paths
-export PATH="./bin:$HOME/bin:$HOME/.rbenv/plugins/ruby-build/bin:/usr/local/heroku/bin:/usr/local/foreman/bin:/usr/local/bin:$PATH"
+export PATH="./bin:$HOME/bin:$HOME/.rbenv/plugins/ruby-build/bin:/usr/local/heroku/bin:/usr/local/foreman/bin:/usr/local/bin:$HOME/Code/go/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 # export JAVA_HOME="$(/usr/libexec/java_home -F)"
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+export GOPATH=$HOME/Code/go
 
 # Colors
 export CLICOLOR=1
@@ -19,15 +20,6 @@ export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
 
 # Fast JRuby
 export JAVA_OPTS="-d32"
-
-# EC2
-# export EC2_PRIVATE_KEY="$(/bin/ls "$HOME"/.ec2/pk-*.pem | /usr/bin/head -1)"
-# export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
-# export EC2_HOME="/usr/local/Library/LinkedKegs/ec2-api-tools/jars"
-# export AWS_ACCESS_KEY_ID="$(cat "$HOME"/.ec2/access_key)"
-# export AWS_SECRET_ACCESS_KEY="$(cat "$HOME"/.ec2/secret_access_key)"
-# export EC2_REGION="us-west-1"
-# export EC2_AVAILABILITY_ZONE="us-west-1a"
 
 # Timer
 REPORTTIME=10 # print elapsed time when more than 10 seconds

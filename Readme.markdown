@@ -22,6 +22,7 @@ I am running on Mac OS X, but it will likely work on Linux as well with minor fi
 If you don't want to see `Readme.markdown` in your home folder (it drives me nuts seeing it in there), just run this:
 
     $ SetFile -a "V" ~/Readme.markdown
+    $ SetFile -a "V" ~/LICENSE
 
 ### Git Exclude
 

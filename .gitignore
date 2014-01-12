@@ -6,3 +6,4 @@
 *.tmproj
 tmtags
 .sass-cache
+.bundle

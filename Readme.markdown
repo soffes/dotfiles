@@ -23,6 +23,7 @@ If you don't want to see `Readme.markdown` in your home folder (it drives me nut
 
     $ SetFile -a "V" ~/Readme.markdown
     $ SetFile -a "V" ~/LICENSE
+    $ SetFile -a "V" ~/Brewfile
 
 ### Git Exclude
 

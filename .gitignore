@@ -7,3 +7,11 @@
 tmtags
 .sass-cache
 .bundle
+*xcuserdata/
+*build/
+*.mode1v3
+*.pbxuser
+*.xcworkspace
+*.moved-aside/
+DerivedData
+Pods

@@ -40,10 +40,14 @@ This will simply exclude everything. If you want to add a file, simply `git add`
     # Install Xcode first
     $ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 
+Install [my usual stuff](Brewfile) from Homebrew:
+
+    $ cd ~
+    $ brew bundle
+
 [Install rbenv](https://github.com/sstephenson/rbenv) and [ruby-build](https://github.com/sstephenson/ruby-build):
 
-    $ brew install rbenv ruby-build rbenv-gem-rehash curl-ca-bundle
-    $ rbenv install 2.0.0-p247
-    $ rbenv global 2.0.0-p247
+    $ rbenv install 2.1.1
+    $ rbenv global 2.1.1
 
 Enjoy.

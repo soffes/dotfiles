@@ -1,8 +1,10 @@
 update
 upgrade
 
+install 'curl-ca-bundle'
 install 'rbenv'
 install 'ruby-build'
+install 'rbenv-gem-rehash'
 install 'redis'
 install 'postgresql'
 install 'heroku'

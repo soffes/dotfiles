@@ -7,6 +7,7 @@ export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 # export JAVA_HOME="$(/usr/libexec/java_home -F)"
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 export GOPATH=$HOME/Code/go
+export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pem
 
 # Colors
 export CLICOLOR=1

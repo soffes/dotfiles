@@ -8,19 +8,19 @@ install 'redis'
 install 'postgresql'
 install 'heroku'
 install 'npm'
+install 'wget'
+install 'go'
+install 'curl'
 
-tap 'phinze/cask'
+tap 'caskroom/homebrew-cask'
 install 'brew-cask'
 cask install 'skype'
 cask install 'slack'
 cask install 'rdio'
-cask install 'alfred'
 cask install 'reveal'
-cask install 'reflector'
 cask install 'google-hangouts'
 cask install 'silverlight'
 cask install 'harvest'
 cask install 'gpgtools'
-cask alfred link
 
 cleanup

@@ -50,4 +50,8 @@ Install [my usual stuff](Brewfile) from Homebrew:
     $ rbenv install 2.1.1
     $ rbenv global 2.1.1
 
+Download the cURL CA bundle:
+
+    $ curl http://curl.haxx.se/ca/cacert.pem -o /usr/local/etc/openssl/cert.pem
+
 Enjoy.

@@ -5,7 +5,7 @@ install 'rbenv'
 install 'ruby-build'
 install 'rbenv-gem-rehash'
 install 'redis'
-install 'postgresql'
+# install 'postgresql' # Doesn't compile on 10.10
 install 'heroku'
 install 'npm'
 install 'wget'
@@ -22,5 +22,6 @@ cask install 'google-hangouts'
 cask install 'silverlight'
 cask install 'harvest'
 cask install 'gpgtools'
+cask install 'sonos'
 
 cleanup

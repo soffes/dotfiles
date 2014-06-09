@@ -52,6 +52,7 @@ Install [my usual stuff](Brewfile) from Homebrew:
 
 Download the cURL CA bundle:
 
+    $ mkdir -p /usr/local/etc/openssl
     $ curl http://curl.haxx.se/ca/cacert.pem -o /usr/local/etc/openssl/cert.pem
 
 Enjoy.

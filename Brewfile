@@ -5,7 +5,7 @@ install 'rbenv'
 install 'ruby-build'
 install 'rbenv-gem-rehash'
 install 'redis'
-# install 'postgresql' # Doesn't compile on 10.10
+install 'postgresql'
 install 'heroku'
 install 'npm'
 install 'wget'

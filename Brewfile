@@ -23,5 +23,7 @@ cask install 'silverlight'
 cask install 'harvest'
 cask install 'sonos'
 cask install 'dropbox'
+cask install 'google-chrome'
+cask install 'flash'
 
 cleanup

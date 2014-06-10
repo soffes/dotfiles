@@ -21,7 +21,6 @@ cask install 'reveal'
 cask install 'google-hangouts'
 cask install 'silverlight'
 cask install 'harvest'
-cask install 'gpgtools'
 cask install 'sonos'
 cask install 'dropbox'
 

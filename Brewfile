@@ -25,5 +25,6 @@ cask install 'sonos'
 cask install 'dropbox'
 cask install 'google-chrome'
 cask install 'flash'
+cask install 'kdiff3'
 
 cleanup

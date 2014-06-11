@@ -38,7 +38,7 @@ This will simply exclude everything. If you want to add a file, simply `git add`
 [Install Homebrew](http://brew.sh):
 
     # Install Xcode first
-    $ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 Install [my usual stuff](Brewfile) from Homebrew:
 

@@ -21,9 +21,7 @@ I am running on Mac OS X, but it will likely work on Linux as well with minor fi
 
 If you don't want to see `Readme.markdown` in your home folder (it drives me nuts seeing it in there), just run this:
 
-    $ SetFile -a "V" ~/Readme.markdown
-    $ SetFile -a "V" ~/LICENSE
-    $ SetFile -a "V" ~/Brewfile
+    $ SetFile -a "V" ~/Readme.markdown ~/LICENSE ~/Brewfile
 
 ### Git Exclude
 
@@ -34,6 +32,10 @@ If you are annoyed by running `git status` in your home directory and seeing a t
 This will simply exclude everything. If you want to add a file, simply `git add` it. (Thanks to [Ryan Tomayko](http://github.com/rtomayko/dotfiles) for this technique.)
 
 ## Now What?
+
+Grab my [bin](https://github.com/soffes/bin) files:
+
+    $ git clone https://github.com/soffes/bin.git ~/bin
 
 [Install Homebrew](http://brew.sh):
 

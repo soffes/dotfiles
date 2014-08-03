@@ -12,6 +12,7 @@ install 'wget'
 install 'go'
 install 'curl'
 install 'libxml2'
+install 'tree'
 
 tap 'caskroom/homebrew-cask'
 install 'brew-cask'

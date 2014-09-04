@@ -3,6 +3,10 @@ export EDITOR='nano'
 
 # Paths
 export PATH="./bin:$HOME/bin:$HOME/.rbenv/plugins/ruby-build/bin:/usr/local/heroku/bin:/usr/local/foreman/bin:/usr/local/bin:$HOME/Code/go/bin:$PATH"
+
+# For now *sigh*
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 # export JAVA_HOME="$(/usr/libexec/java_home -F)"
 export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt

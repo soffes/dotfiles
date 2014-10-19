@@ -1,0 +1,11 @@
+#! /usr/bin/env ruby
+
+def open_cmd(pattern)
+  files = Dir.glob(pattern)
+  `open "#{files.first}"` and exit if files.count == 1
+end
+
+open_cmd '*.xcworkspace'
+open_cmd '*.xcodeproj'
+
+puts 'No Xcode workspaces or projects found.'

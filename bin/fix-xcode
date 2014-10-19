@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Xcode sometimes gets sad and won't index or other shenanigans. You can easily cheer up Xcode
+# and get things happy again by simply removing some files. This little script does just that.
+
+# Quit Xcode
+osascript -e 'tell app "Xcode" to quit'
+
+# Remove derived data
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+
+# Open all Xcode projects in current directory
+open *.xcodeproj

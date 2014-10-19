@@ -40,7 +40,7 @@ Grab my [bin](https://github.com/soffes/bin) files:
 [Install Homebrew](http://brew.sh):
 
     # Install Xcode first
-    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Install [my usual stuff](Brewfile) from Homebrew:
 

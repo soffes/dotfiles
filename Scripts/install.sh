@@ -1,5 +1,5 @@
 echo "Changing shell…"
-sudo echo "/usr/local/bin/zsh" >> /etc/shells && chsh -s /usr/local/bin/zsh
+sudo echo "/usr/local/bin/zsh" >> /etc/shells && chsh -s /bin/zsh
 
 echo "Cloning Sublime Text configuration…"
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3

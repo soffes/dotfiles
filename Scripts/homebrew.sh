@@ -41,6 +41,8 @@ CASKS=(
     google-chrome
     flash
     kdiff3
+    adobe-creative-cloud
+    mailbox
 )
 brew cask install ${CASKS[@]}
 

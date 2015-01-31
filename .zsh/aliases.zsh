@@ -30,3 +30,6 @@ alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/R
 # Commands starting with % for pasting from web
 alias %=' '
 alias $=' '
+
+# Xcode
+alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData'

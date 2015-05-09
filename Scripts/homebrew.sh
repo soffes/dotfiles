@@ -4,14 +4,11 @@ brew upgrade
 TAPS=(
     homebrew/dupes
     homebrew/versions
-    caskroom/cask
-    caskroom/fonts
-    caskroom/versions
 )
 brew tap ${TAPS[@]}
 
 FORMULAS=(
-	rbenv
+    rbenv
     ruby-build
     rbenv-gem-rehash
     redis
@@ -26,24 +23,8 @@ FORMULAS=(
     libxml2
     libxslt
     libiconv
-    caskroom/cask/brew-cask
+    kdiff3
 )
 brew install ${FORMULAS[@]}
-
-CASKS=(
-    skype
-    rdio
-    reveal
-    google-hangouts
-    silverlight
-    sonos
-    dropbox
-    google-chrome
-    flash
-    kdiff3
-    adobe-creative-cloud
-    mailbox
-)
-brew cask install ${CASKS[@]}
 
 brew cleanup

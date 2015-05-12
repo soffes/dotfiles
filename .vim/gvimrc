@@ -1,0 +1,18 @@
+" Font family and font size.
+set guifont=Menlo:h14             
+
+" MacVim: smooth fonts.
+set antialias                     
+
+" Use UTF-8 everywhere.
+set encoding=utf-8
+" set guioptions-=T                 " Hide toolbar.
+
+" Background
+set background=light
+
+" Window dimensions.
+set lines=60 columns=120
+
+" Hide scrollbars
+set guioptions-=r

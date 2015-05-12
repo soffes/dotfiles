@@ -1,0 +1,7 @@
+" Load plugins
+execute pathogen#infect()
+
+" Enable syntax highlight
+syntax on
+
+filetype plugin indent on

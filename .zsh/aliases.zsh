@@ -12,6 +12,7 @@ alias gsu='git submodule update --init --recursive'
 alias gs='git status'
 compdef _git gs=git-status
 alias gut='git'
+alias cleanup_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Editor
 alias s='subl .'

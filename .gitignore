@@ -16,3 +16,5 @@ tmtags
 DerivedData
 Pods
 node_modules/
+.env
+Carthage

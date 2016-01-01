@@ -24,3 +24,7 @@ function git_prompt_info() {
 
 PROMPT='%{$fg[blue]%}%c%{$reset_color%}$ '
 RPROMPT='$(git_prompt_info)'
+
+# Timing App
+PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
+export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "

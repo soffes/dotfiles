@@ -22,3 +22,7 @@
   default = current
 [credential]
   helper = osxkeychain
+[github]
+  user = soffes
+[ghi]
+  token = "!(security find-internet-password -a $YOUR_USERNAME -s github.com -l 'ghi token' -g 3>&2 2>&1 1>&3) 2>/dev/null | cut -d'\"' -f2"

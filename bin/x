@@ -1,8 +1,10 @@
 #! /usr/bin/env ruby
 
+XCODE_PATH = File.expand_path(File.join(`xcode-select -p`.chomp, '../..'))
+
 def open_cmd(pattern)
   files = Dir.glob(pattern)
-  `open "#{files.first}"` and exit if files.count == 1
+  `open -a "#{XCODE_PATH}" "#{files.first}"` and exit if files.count == 1
 end
 
 open_cmd '*.xcworkspace'

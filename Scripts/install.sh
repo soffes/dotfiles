@@ -15,9 +15,9 @@ echo "Installing Homebrew…"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ./Scripts/homebrew.sh
 
-echo "Installing Ruby…"
-rbenv install 2.2.2
-rbenv global 2.2.2
+echo "Installing Ruby 2.3.0…"
+rbenv install 2.3.0
+rbenv global 2.3.0
 gem install bundler
 
 echo "Done."

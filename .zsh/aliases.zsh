@@ -19,9 +19,6 @@ alias s='subl .'
 # Rails
 alias tlog='tail -f log/development.log'
 alias b='bundle exec'
-alias bake='bundle exec rake'
-alias rr='rbenv rehash'
-alias bm='bin/m'
 
 # Mac OS X
 alias o='open .'
@@ -30,6 +27,3 @@ alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/R
 # Commands starting with % for pasting from web
 alias %=' '
 alias $=' '
-
-# Xcode
-alias ddd='rm -rf ~/Library/Developer/Xcode/DerivedData'

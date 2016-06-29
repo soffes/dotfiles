@@ -2,8 +2,8 @@ brew update
 brew upgrade
 
 FORMULAS=(
+    carthage
     rbenv
-    ruby-build
     redis
     postgresql
     heroku
@@ -13,7 +13,7 @@ FORMULAS=(
     imagemagick
     libxml2
     libxslt
-    libiconv
+    homebrew/dupes/libiconv
     kdiff3
     elixir
     hg

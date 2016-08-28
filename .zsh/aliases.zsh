@@ -4,13 +4,14 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # ls
-alias ls="ls -F"
+alias ls='ls -F'
 
 # Git
 alias gsu='git submodule update --init --recursive'
 alias gs='git status'
 compdef _git gs=git-status
 alias gut='git'
+alias gi='git'
 alias cleanup_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Editor

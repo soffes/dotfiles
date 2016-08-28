@@ -9,6 +9,7 @@
   up = pull --rebase
   punch = blame
   pish = push
+	tpush = push
 [color]
   diff = auto
   status = auto

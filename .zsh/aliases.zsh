@@ -9,6 +9,9 @@ alias ls='ls -F'
 # Git
 alias gsu='git submodule update --init --recursive'
 alias gs='git status'
+alias gp='git push'
+alias gu='git up'
+alias gc='git commit -a'
 compdef _git gs=git-status
 alias gut='git'
 alias gi='git'

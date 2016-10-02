@@ -13,7 +13,7 @@ function git_prompt_info() {
   fi;
 
   # Ignore the home directory
-  if [ $(git rev-parse --quiet --show-toplevel) '==' $HOME ]; then
+  if [ "$(git rev-parse --quiet --show-toplevel)" '==' $HOME ]; then
     return;
   fi;
 

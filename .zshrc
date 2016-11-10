@@ -23,7 +23,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' insert-tab pending
 
 # Editor
-export EDITOR='nano'
+export EDITOR='vim'
 
 # Paths
 export PATH="$HOME/bin:$HOME/.rbenv/plugins/ruby-build/bin:$HOME/Code/go/bin:/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:/usr/local/heroku/bin:/usr/local/foreman/bin:/usr/local/bin:/System/Library/CoreServices:$PATH"

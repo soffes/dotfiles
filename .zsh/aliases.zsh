@@ -31,3 +31,6 @@ alias screensaver='/System/Library/Frameworks/ScreenSaver.framework/Versions/A/R
 # Commands starting with % for pasting from web
 alias %=' '
 alias $=' '
+
+# Homebrew
+alias brewup='brew update && brew doctor && brew outdated && brew upgrade && brew cleanup'

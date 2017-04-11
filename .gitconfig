@@ -1,34 +1,32 @@
 [user]
-  name = Sam Soffes
-  email = sam@soff.es
-  signingkey = 8F60329C
+	name = Sam Soffes
+	email = sam@soff.es
+	signingkey = F13BD92D5DE334DF9A81FAEE92F9B5EF8F60329C
 [github]
-  user = soffes
+	user = soffes
 [alias]
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  up = pull --rebase
-  punch = blame
-  pish = push
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	up = pull --rebase
+	punch = blame
+	pish = push
 	tpush = push
 [color]
-  diff = auto
-  status = auto
-  branch = auto
+	diff = auto
+	status = auto
+	branch = auto
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
 [apply]
-  whitespace = nowarn
+	whitespace = nowarn
 [merge]
-  tool = kdiff3
+	tool = kdiff3
 [difftool]
-  prompt = false
+	prompt = false
 [push]
-  default = current
+	default = current
 [credential]
-  helper = osxkeychain
+	helper = osxkeychain
 [ghi]
-  token = !security find-internet-password -a `git config github.user` -s github.com -l 'ghi token' -w
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	required = true
+	token = !security find-internet-password -a `git config github.user` -s github.com -l 'ghi token' -w
+[gpg]
+	program = gpg

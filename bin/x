@@ -9,5 +9,6 @@ end
 
 open_cmd '*.xcworkspace'
 open_cmd '*.xcodeproj'
+open_cmd '*.playground'
 
-puts 'No Xcode workspaces or projects found.'
+puts 'No Xcode workspaces, projects, or playgrounds found.'

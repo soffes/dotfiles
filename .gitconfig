@@ -30,3 +30,10 @@
 	token = !security find-internet-password -a `git config github.user` -s github.com -l 'ghi token' -w
 [gpg]
 	program = gpg
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[mergetool]
+	keepBackup = false

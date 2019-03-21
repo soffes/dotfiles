@@ -16,6 +16,7 @@ compdef _git gs=git-status
 alias gut='git'
 alias gi='git'
 alias cleanup_branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+alias rm_orig="find . -name '*.orig' -delete"
 
 # Editor
 alias s='subl .'

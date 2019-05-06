@@ -10,7 +10,7 @@
 	punch = blame
 	pish = push
 	tpush = push
-	rb = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow bold)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) %(color:green)(%(committerdate:relative))%(color:reset)'
+	br = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow bold)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) %(color:green)(%(committerdate:relative))%(color:reset)'
 [color]
 	diff = auto
 	status = auto

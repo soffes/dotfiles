@@ -10,6 +10,7 @@
 	punch = blame
 	pish = push
 	tpush = push
+	rb = branch --sort=-committerdate
 [color]
 	diff = auto
 	status = auto

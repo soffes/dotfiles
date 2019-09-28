@@ -17,3 +17,5 @@ Pods
 node_modules/
 .env
 Carthage
+.build
+

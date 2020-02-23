@@ -11,4 +11,6 @@ open_cmd '*.xcworkspace'
 open_cmd '*.xcodeproj'
 open_cmd '*.playground'
 
-puts 'No Xcode workspaces, projects, or playgrounds found.'
+open_cmd '.' if File.exists?('Package.swift')
+
+puts 'No Xcode workspaces, projects, playgrounds, or packages found.'

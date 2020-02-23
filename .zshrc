@@ -26,10 +26,8 @@ zstyle ':completion:*' insert-tab pending
 export EDITOR='vim'
 
 # Paths
-export PATH="$HOME/bin:$HOME/.rbenv/plugins/ruby-build/bin:$HOME/Code/go/bin:/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:/usr/local/heroku/bin:/usr/local/foreman/bin:/usr/local/bin:/System/Library/CoreServices:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$PATH"
-export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
-export GOPATH=$HOME/Code/go
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
 # Colors
 export CLICOLOR=1

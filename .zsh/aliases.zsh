@@ -20,12 +20,13 @@ alias rm_orig="find . -name '*.orig' -delete"
 
 # Editor
 alias s='subl .'
+alias vs='code .'
 
 # Rails
 alias tlog='tail -f log/development.log'
 alias b='bundle exec'
 
-# Mac OS X
+# macOS
 alias o='open .'
 
 # Commands starting with % for pasting from web

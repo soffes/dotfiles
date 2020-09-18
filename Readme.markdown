@@ -7,7 +7,7 @@ Based on [Ryan Bates](http://github.com/ryanb/dotfiles), [Ryan Tomayko](http://g
     $ cd ~
     $ git init
     $ git remote add origin https://github.com/soffes/dotfiles.git
-    $ git pull origin master
+    $ git pull origin main
     $ ~/Scripts/install.sh
 
 ## Stuff To Change

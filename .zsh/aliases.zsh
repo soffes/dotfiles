@@ -20,7 +20,8 @@ alias rm_orig="find . -name '*.orig' -delete"
 
 # Editor
 alias s='subl .'
-alias vs='code-insiders .'
+alias vs='code .'
+alias nv='nova .'
 
 # Rails
 alias tlog='tail -f log/development.log'

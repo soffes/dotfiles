@@ -1,0 +1,1 @@
+command regex json 's/(.+)/expr print(String(data: try! JSONSerialization.data(withJSONObject: try! JSONSerialization.jsonObject(with: %1, options: []), options: [.prettyPrinted]), encoding: .utf8)!)/'

@@ -39,3 +39,4 @@ alias brewup='brew update && brew doctor && brew outdated && brew upgrade && bre
 
 # Misc
 alias http='ruby -run -ehttpd . -p8000'
+alias rx='rake && x'

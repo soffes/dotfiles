@@ -20,7 +20,7 @@ alias rm_orig="find . -name '*.orig' -delete"
 
 # Editor
 alias s='subl .'
-alias vs='code .'
+alias vs='code-exploration .'
 alias nv='nova .'
 
 # Rails
@@ -36,6 +36,7 @@ alias $=' '
 
 # Homebrew
 alias brewup='brew update && brew doctor && brew outdated && brew upgrade && brew cleanup -s --prune=1'
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
 
 # Misc
 alias http='ruby -run -ehttpd . -p8000'

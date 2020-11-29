@@ -26,7 +26,7 @@ zstyle ':completion:*' insert-tab pending
 export EDITOR='vim'
 
 # Paths
-export PATH="$HOME/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
+export PATH="$HOME/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 # Colors

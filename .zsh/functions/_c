@@ -1,2 +1,2 @@
 #compdef c
-_files -W ~/Code -/
+_files -W ~/Developer -/

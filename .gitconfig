@@ -38,3 +38,5 @@
 	clean = git-lfs clean -- %f
 [mergetool]
 	keepBackup = false
+[init]
+	defaultBranch = main

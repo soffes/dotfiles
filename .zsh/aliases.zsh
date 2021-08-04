@@ -42,3 +42,4 @@ alias ibrew='arch -x86_64 /usr/local/bin/brew'
 # Misc
 alias http='ruby -run -ehttpd . -p8000'
 alias rx='rake && x'
+alias uuid='ruby -r securerandom -e "puts SecureRandom.uuid"'

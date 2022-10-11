@@ -20,7 +20,6 @@ alias rm_orig="find . -name '*.orig' -delete"
 
 # Editor
 alias s='subl .'
-alias code='code-insiders'
 alias vs='code .'
 alias nv='nova .'
 

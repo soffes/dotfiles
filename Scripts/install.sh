@@ -12,12 +12,7 @@ echo "Excluding everything from git…"
 echo '*' >> ~/.git/info/exclude
 
 echo "Installing Homebrew…"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-./Scripts/homebrew.sh
-
-echo "Installing Ruby 2.3.0…"
-rbenv install 2.3.0
-rbenv global 2.3.0
-gem install bundler
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew bundle
 
 echo "Done."

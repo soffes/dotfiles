@@ -10,7 +10,13 @@ brew "postgresql@12"
 brew "rbenv"
 brew "redis"
 
+cask "1password"
+cask "blender"
+cask "google-chrome"
 cask "kdiff3"
+cask "macdive"
+cask "mullvadvpn"
+cask "sublime-text"
 
 mas "1Blocker - Ad Blocker", id: 1365531024
 mas "1Password for Safari", id: 1569813296
@@ -23,6 +29,8 @@ mas "Logic Pro", id: 634148309
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
+mas "Redacted", id: 984968384
 mas "Soulver 3", id: 1508732804
+mas "TestFlight", id: 899247664
 mas "Things 3", id: 904280696
 mas "WhatsApp Desktop", id: 1147396723

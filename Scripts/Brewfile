@@ -1,16 +1,24 @@
 tap "homebrew/core"
 tap "homebrew/cask"
 
+# Priorities
+cask "1password"
+brew "mas"
+mas "1Password for Safari", id: 1569813296
+mas "Things 3", id: 904280696
+cask "visual-studio-code"
+
 brew "git"
 brew "imagemagick"
 brew "libxml2"
 brew "libxslt"
-brew "mas"
+brew "libyaml"
+brew "openssl@1.1"
 brew "postgresql@12"
 brew "rbenv"
+brew "readline"
 brew "redis"
 
-cask "1password"
 cask "blender"
 cask "google-chrome"
 cask "kdiff3"
@@ -19,7 +27,6 @@ cask "mullvadvpn"
 cask "sublime-text"
 
 mas "1Blocker - Ad Blocker", id: 1365531024
-mas "1Password for Safari", id: 1569813296
 mas "Adobe Lightroom", id: 1451544217
 mas "Cascadea", id: 1432182561
 mas "Day One", id: 1055511498
@@ -32,5 +39,4 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Redacted", id: 984968384
 mas "Soulver 3", id: 1508732804
 mas "TestFlight", id: 899247664
-mas "Things 3", id: 904280696
 mas "WhatsApp Desktop", id: 1147396723

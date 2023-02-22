@@ -10,6 +10,7 @@ cask "visual-studio-code"
 
 brew "git"
 brew "imagemagick"
+brew "libpq"
 brew "libxml2"
 brew "libxslt"
 brew "libyaml"

@@ -13,6 +13,7 @@ echo '*' >> ~/.git/info/exclude
 
 echo "Installing Homebrew…"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew bundle
-
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew bundle --file ~/Scripts/Brewfile
+ 
 echo "Done."

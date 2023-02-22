@@ -5,6 +5,7 @@ tap "homebrew/cask"
 cask "1password"
 brew "mas"
 mas "1Password for Safari", id: 1569813296
+cask "alfred"
 mas "Things 3", id: 904280696
 cask "visual-studio-code"
 

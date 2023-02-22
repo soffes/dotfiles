@@ -27,6 +27,7 @@ cask "kdiff3"
 cask "macdive"
 cask "mullvadvpn"
 cask "sublime-text"
+cask "unity-hub"
 
 mas "1Blocker - Ad Blocker", id: 1365531024
 mas "Adobe Lightroom", id: 1451544217

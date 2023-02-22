@@ -25,6 +25,7 @@
 	prompt = false
 [push]
 	default = current
+	autoSetupRemote = true
 [credential]
 	helper = osxkeychain
 [ghi]

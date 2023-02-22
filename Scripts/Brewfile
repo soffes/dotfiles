@@ -20,6 +20,7 @@ brew "postgresql@12"
 brew "rbenv"
 brew "readline"
 brew "redis"
+brew "zsh"
 
 cask "blender"
 cask "google-chrome"

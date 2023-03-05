@@ -9,6 +9,7 @@ cask "alfred"
 mas "Things 3", id: 904280696
 cask "visual-studio-code"
 
+brew "esphome"
 brew "git"
 brew "imagemagick"
 brew "libpq"

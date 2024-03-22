@@ -1,5 +1,19 @@
 #! /usr/bin/env ruby
 
+require 'optparse'
+
+options = {}
+OptionParser.new do |opts|
+  opts.on("-d", "--delete-derived-data", "Delete DerivedData before launching") do |value|
+    options[:delete_derived_data] = value
+  end
+end.parse!
+
+if options[:delete_derived_data]
+  puts "Deleting DerivedData…"
+  `rm -rf ~/Library/Developer/Xcode/DerivedData`
+end
+
 XCODE_PATH = File.expand_path(File.join(`xcode-select -p`.chomp, '../..'))
 
 def open_cmd(pattern)

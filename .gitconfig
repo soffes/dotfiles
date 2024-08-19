@@ -27,7 +27,7 @@
 	default = current
 	autoSetupRemote = true
 [credential]
-	helper = osxkeychain
+	helper = cache
 [ghi]
 	token = !security find-internet-password -a `git config github.user` -s github.com -l 'ghi token' -w
 [gpg]
@@ -41,3 +41,7 @@
 	keepBackup = false
 [init]
 	defaultBranch = main
+[credential "https://github.com"]
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/opt/homebrew/bin/gh auth git-credential

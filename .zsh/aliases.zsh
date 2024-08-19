@@ -21,7 +21,6 @@ alias rm_orig="find . -name '*.orig' -delete"
 # Editor
 alias s='subl .'
 alias vs='code . 2>/dev/null || code-insiders . 2>/dev/null || echo "code and code-insiders not installed"'
-alias nv='nova .'
 
 # Rails
 alias tlog='tail -f log/development.log'

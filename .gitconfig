@@ -11,7 +11,7 @@
 	pish = push
 	tpush = push
 	brr = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow bold)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) %(color:green)(%(committerdate:relative))%(color:reset)'
-	br = br --count 10
+	br = brr --count 10
 [color]
 	diff = auto
 	status = auto

@@ -27,12 +27,8 @@
 [push]
 	default = current
 	autoSetupRemote = true
-[credential]
-	helper = cache
 [ghi]
 	token = !security find-internet-password -a `git config github.user` -s github.com -l 'ghi token' -w
-[gpg]
-	program = gpg
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -46,3 +42,9 @@
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = !/opt/homebrew/bin/gh auth git-credential
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true

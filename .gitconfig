@@ -5,13 +5,14 @@
 [github]
 	user = soffes
 [alias]
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 	up = pull --rebase
 	punch = blame
 	pish = push
 	tpush = push
 	brr = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow bold)%(refname:short)%(color:reset) - %(contents:subject) - %(authorname) %(color:green)(%(committerdate:relative))%(color:reset)'
 	br = brr --count 10
+	pc = switch -
 [color]
 	diff = auto
 	status = auto

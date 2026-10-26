@@ -1,0 +1,2 @@
+#compdef m
+_files -W ~/Developer/mono/Apps -/
